@@ -18,12 +18,20 @@ npm manifest:
     "name": "better-playlists",
     "version": "0.1.0",
     "private": true,
+    "proxy": "http://localhost:8888/",
     "dependencies": {
+      "lodash": "^4.17.10",
       "query-string": "^5.0.0",
-      "react": "^15.6.1",
-      "react-dom": "^15.6.1",
+      "rc-slider": "^8.6.1",
+      "react": "^15.6.2",
+      "react-dom": "^15.6.2",
+      "react-router": "^4.2.0",
+      "react-router-dom": "^4.2.2",
       "react-scripts": "1.0.11",
-      "reset-css": "^2.2.1"
+      "react-scrollbar": "^0.5.4",
+      "reactstrap": "^5.0.0",
+      "reset-css": "^2.2.1",
+      "spotify-web-api-js":"0.24.0"
     },
     "scripts": {
       "start": "react-scripts start",
@@ -41,10 +49,10 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 127
+  Exit code: 1
   Command: sh
   Arguments: -c react-scripts start
-  Directory: /Users/cansu/Desktop/denver-playlist-frontend
+  Directory: /Users/cansu/Desktop/lit-playlists
   Output:
   
       at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
